@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:cursive;
+}
+
+h1{
+    position: relative;
+    font-family:cursive ;
+    left: 50px;
+}
+
+.btn > a{
+    position: relative;
+    display:inline-block;
+    width: 70px;
+    text-align: center;
+    background-color: cornflowerblue;
+    color:white;
+    text-decoration: none;
+    left:800px;
+    top: 3px;
+}
+
+.contenedor{
+  position:relative;
+  padding:5px;
+  padding-bottom: 0px;
+  max-width: 1000px;
+  min-width: 120px;
+  border-bottom:0px;
+  left:50px
+}
+
+.img-baner{
+    width: 100%;
+}
+
+.subtitulo{
+    position: relative;
+    display:inline-block;
+    width: 1000px;
+    text-align: center;
+    border: 3px solid black;
+    left: 50px;
+}
+
+.logo{
+    position: absolute;
+    left: 10px;
+}
+
+.opciones{
+    position:relative;
+    top: 20px;
+    left: 250px;
+}
+
+.opciones p{
+    max-width: 800px;
+}
+
+
+h3{
+    font-style: italic;  
+}
+
+p{
+    position: relative;
+    left: 20px;
+    padding-bottom: 15px
+}
+
+.div-contactos{
+    position:relative;
+    top: 90px;
+    left: 300px
+}
