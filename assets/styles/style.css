@@ -5,6 +5,10 @@
     font-family:cursive;
 }
 
+body{
+  background-color: #dcdcdc;
+}
+
 h1{
     position: relative;
     font-family:cursive ;
@@ -30,8 +34,12 @@ h1{
     background-color: cornflowerblue;
     color:white;
     text-decoration: none;
-    left:300px;
+    left: 150px;
     top: -160px;
+}
+
+#btn-form{
+  width: 150px;
 }
 
 .img-baner{
@@ -190,7 +198,7 @@ table {
 
 .lista-ordenada-2{
   font-weight: normal;
-  padding-bottom: 0px; 
+  padding-bottom: 20px; 
   list-style-type: lower-alpha;
   width:800px;
 }
@@ -203,3 +211,130 @@ table {
   margin-left: 15px;;
   width:800px;
 }
+
+.contenedor-form{
+position: relative;
+
+max-width: 760px;
+top:400px;
+left:300px; 
+border: 1px solid black; 
+}
+
+fieldset{
+  border: none;
+  padding: 5px;
+  margin: 5px 5px 10px 5px; 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+fieldset>legend{
+  font-weight: bold;
+}
+
+input{
+  border: none;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+  background-color: #dcdcdc;
+}
+
+#fieldset-1{
+  border:none;
+  display:inline-block;
+  justify-content: space-between;
+}
+
+#input-street{
+  width: 80%
+}
+
+#input-apellido{
+  width: 300px;
+}
+
+#birth-gender{
+  height: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#closest-school{
+  display: flex; 
+  width: 120%;
+}
+
+#fieldset-closed-school{
+  display: flex ;
+}
+
+.div-de-opciones>input{
+  display: block;
+}
+
+#position-play{
+  display: flex;
+}
+
+#uniform-size{
+  display: flex;
+}
+
+#permission-to-play{
+  margin-left: -20px;
+  padding-bottom: 20px;
+}
+
+#firma-fecha{
+  position: relative;
+}
+
+#signature{
+  display: block;
+  left: 20px;
+  padding-bottom: 20px;
+}
+
+.enviar{
+  height: 40px;
+  width: 100px;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: lightblue;
+  font-weight: bold;
+}
+
+#titulo-mapas{
+  position: relative;
+  top:830px;
+  left: 580px
+}
+
+#mapas-general{
+  position: absolute;
+  border: 3px solid black;
+  top: 1250px;
+  left: 300px;
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+#mapas-general>div{
+  margin: 10px;
+}
+
+
+dt>h3{
+  padding-bottom: 15px;
+  
+}
+
+dd>p{
+  padding-bottom: 30px;; 
+}
+
